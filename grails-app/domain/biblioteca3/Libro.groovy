@@ -9,6 +9,8 @@ class Libro {
     String descripcion
     Date fecha
 
+    static hasMany = [operaciones: Operacion]
+
     static constraints = {
         isbn(blank: false)
         titulo(blank: false)
