@@ -1,4 +1,4 @@
-import biblioteca3.*
+package biblioteca3
 
 class BootStrap {
 
